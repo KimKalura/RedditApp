@@ -19,7 +19,7 @@ public class Subreddit {
     @Column
     private String name;
     @Column
-    private String description; //test5
+    private String description; //test3
     @Column
     private LocalDateTime createdDate;
     @OneToMany(mappedBy = "subreddit", cascade = CascadeType.ALL)
